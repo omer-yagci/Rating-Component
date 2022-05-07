@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rating-component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-container content">
+          <div class="head-img">
+            <img src="./images/icon-star.svg" alt="star" />
+          </div>
+          <h1>How did we go ?</h1>
+          <p class="description">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering.
+          </p>
+          <div class="btn-rating-content">
+            <button class="rating-btn" data-val="1">1</button>
+            <button class="rating-btn" data-val="2">2</button>
+            <button class="rating-btn" data-val="3">3</button>
+            <button class="rating-btn" data-val="4">4</button>
+            <button class="rating-btn" data-val="5">5</button>
+          </div>
+          <button class="btn-submit">Submit</button>
+        </div>
+        <div class="hide-content hidden">
+          <img src="./images/illustration-thank-you.svg" alt="thank you" />
+
+          <div class="selected-section-div">
+            You selected <span class="selected-section">4</span> out of 5
+          </div>
+          <h1>Thank you!</h1>
+          <div class="description">
+            We apppreciate you taking the time to give a rating.If you ever need
+            more support,don't hesitate to get in touch!
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
